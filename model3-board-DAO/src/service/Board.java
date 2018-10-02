@@ -12,6 +12,7 @@ public class Board {
 	private String boardHit;
 	private int boardImg;
 	private String boardfileName;
+	private String boardmodifDate;
 	
 	public int getBoardNo() {
 		return boardNo;
@@ -79,5 +80,11 @@ public class Board {
 	}
 	public void setBoardfileName(String boardfileName) {
 		this.boardfileName = boardfileName;
+	}
+	public String getBoardmodifDate() {
+		return boardmodifDate;
+	}
+	public void setBoardmodifDate(String boardmodifDate) {
+		this.boardmodifDate = boardmodifDate;
 	}
 }
