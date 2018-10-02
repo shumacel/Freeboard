@@ -80,5 +80,4 @@ public class Board {
 	public void setBoardfileName(String boardfileName) {
 		this.boardfileName = boardfileName;
 	}
-	
 }
